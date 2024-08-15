@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HARVEST</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+
+    <div class="navbar">
+    <div class="icon">
+      <h2 class="logo">HARVEST GUARD</h2>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/contact">CONTACTUS</a></li>
+        <li><a href="/TypePage">TYPES</a></li>
+        <li><a href="/info">INFO</a></li>
+        <li><a href="/learn">LEARN</a></li>
+          
+          
+
+          
+      </ul>
+    </div>
+
+
+
+    
+
+
+
+
+    <main class="table" >
+        <section class="table__header">
+            <h1>LEARNING</h1>
+            <div class="input-group">
+                <input type="search" placeholder="Search Data...">
+                
+            </div>
+            <div class="">
+                
+                
+                
+            </div>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                
+                        <th> plants <span class="icon-arrow">&UpArrow;</span></th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr onclick="redirectToPage('/apple-learn')">
+                        <td> Apple</td>
+                    </tr>
+                    <tr onclick="redirectToPage('/banana')" >
+                        <td> Banana</td>
+                    </tr>
+                    <tr   onclick="redirectToPage('/cherry')">
+                        <td> Cherry</td>
+                    </tr>
+                    <tr   onclick="redirectToPage('/corn')">
+                        <td> Corn</td>
+                    </tr>
+                    <tr   onclick="redirectToPage('/cotton')">
+                        <td> Cotton</td>
+                    </tr>
+                    <tr   onclick="redirectToPage('/cucumber')">
+                        <td> Cucumber</td>
+                    </tr>
+                    <tr  onclick="redirectToPage('/eggplant')" >
+                        <td> Eggplant</td>
+                    </tr>
+                    <tr   onclick="redirectToPage('/grape')">
+                        <td> Grape</td>
+                    </tr>
+                    <tr   onclick="redirectToPage('/mango')">
+                        <td> Mango</td>
+                    </tr>
+                    <tr   onclick="redirectToPage('/peach')">
+                        <td> Peach</td>
+                    </tr>
+                    <tr   onclick="redirectToPage('/pepper')">
+                        <td> Pepper</td>
+                    </tr>
+                    <tr onclick="redirectToPage('/potato')" >
+                        <td> Potato</td>
+                    </tr>
+                    <tr  onclick="redirectToPage('/rice')">
+                        <td> Rice</td>
+                    </tr>
+                    <tr onclick="redirectToPage('/soybean')" >
+                        <td> Soybeans</td>
+                    </tr>
+                    <tr  onclick="redirectToPage('/strawberry')">
+                        <td> Strawberry</td>
+                    </tr>
+                    <tr onclick="redirectToPage('/tomato-learn')">
+                        <td> Tomato</td>
+                    </tr>
+                
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script  src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>
